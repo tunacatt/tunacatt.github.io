@@ -1,9 +1,157 @@
 <!DOCTYPE html>
-<html>
-  <head>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>tunacatt</title>
-  </head>
-  <body>
-    <h1>Welcome to tunacatt's website!</h1>
-  </body>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <div class="falling-background" aria-hidden="true"></div>
+    <nav>
+        <div class="nav-links">
+            <ul class="links">
+                <li><a href="https://github.com/tunacatt/"><i class="fa fa-github"></i></a></li>
+                <li><a href="https://www.reddit.com/user/________yourbestgf/"><i class="fa fa-reddit-alien"></i></a></li>
+                <li><a href="#" onclick="navigator.clipboard.writeText('@tunacatt:matrix.org')"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 640"><!--!Font Awesome Free v7.3.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2026 Fonticons, Inc.--><path fill="#aaa" d="M125.6 91L92.7 91L92.7 549L125.6 549L125.6 560L80 560L80 80L125.6 80L125.6 91zM560 560L514.4 560L514.4 549L547.3 549L547.3 91L514.4 91L514.4 80L560 80L560 560zM388.1 231.6C397.1 231.6 405.5 232.7 413.3 234.9C421.1 237.1 427.6 240.6 433.1 245.5C438.6 250.4 442.9 256.7 446 264.5C449 272.3 450.6 281.8 450.6 292.8L450.6 407.3L403.6 407.3L403.6 310.3C403.6 304.6 403.4 299.1 403 294C402.6 288.9 401.3 284.5 399.4 280.8C397.4 277 394.5 274 390.7 271.8C386.9 269.6 381.6 268.5 375 268.5C368.4 268.5 363 269.8 358.9 272.3C354.8 274.9 351.6 278.1 349.3 282.3C347 286.4 345.4 291 344.7 296.2C344 301.4 343.5 306.6 343.5 311.9L343.5 407.2L296.5 407.2L296.5 311.2C296.5 306.1 296.4 301.1 296.1 296.2C295.9 291.2 294.9 286.7 293.2 282.4C291.5 278.3 288.8 274.8 284.9 272.3C281 269.8 275.4 268.5 267.8 268.5C265.6 268.5 262.6 269 259 270C255.4 271 251.8 272.9 248.4 275.6C245 278.3 242 282.3 239.6 287.5C237.2 292.7 236 299.5 236 307.9L236 407.2L189 407.2L189 235.9L233.3 235.9L233.3 259.1L234 259.1C240.2 250.2 247.7 243.4 256.3 238.6C265 233.7 275 231.3 286.3 231.3C297.1 231.3 307 233.4 315.9 237.6C324.8 241.8 331.6 249.2 336.3 259.8C341.4 252.3 348.3 245.7 357 240C365.7 234.3 376 231.4 387.9 231.4z"/></svg></a></li>
+                <li><a href="#" onclick="navigator.clipboard.writeText('@tunacatt._.')"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 512"><!--!Font Awesome Free v5.15.4 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2026 Fonticons, Inc.--><path fill="#aaa" d="M524.531,69.836a1.5,1.5,0,0,0-.764-.7A485.065,485.065,0,0,0,404.081,32.03a1.816,1.816,0,0,0-1.923.91,337.461,337.461,0,0,0-14.9,30.6,447.848,447.848,0,0,0-134.426,0,309.541,309.541,0,0,0-15.135-30.6,1.89,1.89,0,0,0-1.924-.91A483.689,483.689,0,0,0,116.085,69.137a1.712,1.712,0,0,0-.788.676C39.068,183.651,18.186,294.69,28.43,404.354a2.016,2.016,0,0,0,.765,1.375A487.666,487.666,0,0,0,176.02,479.918a1.9,1.9,0,0,0,2.063-.676A348.2,348.2,0,0,0,208.12,430.4a1.86,1.86,0,0,0-1.019-2.588,321.173,321.173,0,0,1-45.868-21.853,1.885,1.885,0,0,1-.185-3.126c3.082-2.309,6.166-4.711,9.109-7.137a1.819,1.819,0,0,1,1.9-.256c96.229,43.917,200.41,43.917,295.5,0a1.812,1.812,0,0,1,1.924.233c2.944,2.426,6.027,4.851,9.132,7.16a1.884,1.884,0,0,1-.162,3.126,301.407,301.407,0,0,1-45.89,21.83,1.875,1.875,0,0,0-1,2.611,391.055,391.055,0,0,0,30.014,48.815,1.864,1.864,0,0,0,2.063.7A486.048,486.048,0,0,0,610.7,405.729a1.882,1.882,0,0,0,.765-1.352C623.729,277.594,590.933,167.465,524.531,69.836ZM222.491,337.58c-28.972,0-52.844-26.587-52.844-59.239S193.056,219.1,222.491,219.1c29.665,0,53.306,26.82,52.843,59.239C275.334,310.993,251.924,337.58,222.491,337.58Zm195.38,0c-28.971,0-52.843-26.587-52.843-59.239S388.437,219.1,417.871,219.1c29.667,0,53.307,26.82,52.844,59.239C470.715,310.993,447.538,337.58,417.871,337.58Z"/></svg></a></li>
+                <li><a href="https://youtube.com/@tunalikescat"><i class="fa fa-youtube"></i></a></li>
+            </ul>
+        </div>
+        <button class="site-menu-toggle" type="button" aria-expanded="false" aria-controls="site-menu">cd</button>
+        <div class="site-menu" id="site-menu" hidden>
+            <button class="site-menu-close" type="button" aria-label="Close navigation menu">×</button>
+            <ul>
+                <li><a href="/">/</a></li>
+                <li><a href="/recommended-sites/">recommended-sites/</a></li>
+                <li><a href="/birdos/">birdos/</a></li>
+            </ul>
+        </div>
+    </nav>
+    <div class="tunacatt">
+        <span class="bigtext">
+            tunacatt█
+        </span>
+
+        <div class="things-list">
+            <ul class="list">
+                <li>programming</li>
+                <li>computer enthusiasm</li>
+                <li>OS internals</li>
+            </ul>
+        </div>
+        <br>
+        <br>
+
+        <p class="hello">
+            hello i am a person and i do things
+        </p>
+
+        
+    </div>
+
+    <div class="bios">
+        <p class="bio" id="os">
+            <span class="larger">OS:</span>
+            i daily-drive fedora linux<br>
+            i use KDE plasma and hyprland, but i usually explore many DEs and WMs <br>
+            i also use arch <b>BTW</b>, debian and windows 7 on other PCs
+        </p>
+        <p class="bio interests">
+            <span class="larger">more things:</span>
+            i am interested in OS internals, computers, programming and maths <br>
+            i have NO LIFE <br>
+            i don't like GUIs, i prefer terminal <br>
+            i hate school <br>
+            i am a C god because like C, C++ and C# <br> i hate python
+        </p>
+        <section class="bio projects">
+            <span class="larger">projects:</span>
+            some of my projects:
+            <ul class="projlist">
+                <li><button type="button" class="project-link" data-overview="a hobby OS, made from scratch by me in C, Assembly and C++.">birdos</button></li>
+                <li><button type="button" class="project-link" data-overview="a file explorer app in C++, it's one of my first projects though and that's why it's not on github. does no more things than the default explorer in windows for comparison.">XPLorer</button></li>
+                <li><button type="button" class="project-link" data-overview="a fake rogue AV i made in C#, i was inspired by watching videos about NavaShield.">PC Anti Virus Shield Pro 2010</button></li>
+                <li><button type="button" class="project-link" data-overview="self-explanatory, downloads chromium extension .crx files.">ChromeExtensionDownloader</button></li>
+                <li><button type="button" class="project-link" data-overview="the thing you're seeing right now">this website (tunacatt)</button></li>
+                <li><button type="button" class="project-link" data-overview="[WIP] a guide to privacy/OPSEC for no money, e.g. freemium VPNs.">[WIP] freeprivacyguide</button></li>
+                <li><button type="button" class="project-link" data-overview="not a crawler, but a search engine i tried to make. it works, but terribly and i didn't push it to github (i forgot where i saved it so not gonna push it).">webspider</button></li>
+                <li><button type="button" class="project-link" data-overview="i have tried like 50 times to make a discord bot. no i didn't like it. that's why i gave up on trying to make one.">discord bots (multiple attempts)</button></li>
+                <li><button type="button" class="project-link" data-overview="(Unmaintained Media Dump) my friend's project, but i have contributed as well. it's a site with unmaintained software, go check it out!">UMDmp</button> <a href="https://umdmp.co.uk/">[link]</a></li>
+                <li><a href="./recommended-sites/index.html">cool-sites</a></button>
+                </li>
+            </ul>
+            some of those projects are not on my github because either they are old (not willing to restore them) <br> or they are unfinished
+            
+        </section>
+        <section class="proj" aria-live="polite" hidden>
+            <span class="larger"></span>
+            <p class="project-overview">overview</p>
+        </section>
+    </div>
+    
+    <script>
+        const fallingBackground = document.querySelector(".falling-background");
+        const characters = "0123456789abcdef:'[]{}:;/.,><_-+=!@#$%^&*()`~|";
+
+        for (let i = 0; i < 80; i++) {
+            const character = document.createElement("span");
+            character.className = "falling-character";
+            character.textContent = characters[Math.floor(Math.random() * characters.length)];
+            character.style.left = `${Math.random() * 100}%`;
+            character.style.setProperty("--resting-top", `${Math.random() * 100}%`);
+            character.style.fontSize = `${0.55 + Math.random() * 0.7}rem`;
+            character.style.animationDuration = `${9 + Math.random() * 14}s`;
+            character.style.animationDelay = `${-Math.random() * 23}s`;
+            fallingBackground.append(character);
+        }
+
+        const bios = document.querySelector(".bios");
+        const projectDetails = document.querySelector(".proj");
+        const projectTitle = projectDetails.querySelector(".larger");
+        const projectOverview = projectDetails.querySelector(".project-overview");
+
+        document.querySelectorAll(".project-link").forEach((button) => {
+            button.addEventListener("click", () => {
+                projectTitle.textContent = `${button.textContent.trim()}:`;
+                projectOverview.textContent = button.dataset.overview;
+                projectDetails.hidden = false;
+                bios.classList.add("has-selection");
+                document.querySelectorAll(".project-link").forEach((projectLink) => {
+                    projectLink.setAttribute("aria-pressed", String(projectLink === button));
+                });
+            });
+        });
+
+        const siteMenuToggle = document.querySelector(".site-menu-toggle");
+        const siteMenu = document.querySelector(".site-menu");
+        const siteMenuClose = document.querySelector(".site-menu-close");
+
+        function setSiteMenuOpen(isOpen) {
+            siteMenu.hidden = !isOpen;
+            siteMenuToggle.setAttribute("aria-expanded", String(isOpen));
+        }
+
+        siteMenuToggle.addEventListener("click", () => {
+            setSiteMenuOpen(siteMenu.hidden);
+        });
+        siteMenuClose.addEventListener("click", () => {
+            setSiteMenuOpen(false);
+            siteMenuToggle.focus();
+        });
+        document.addEventListener("click", (event) => {
+            if (!siteMenu.hidden && !event.target.closest(".site-menu, .site-menu-toggle")) {
+                setSiteMenuOpen(false);
+            }
+        });
+        document.addEventListener("keydown", (event) => {
+            if (event.key === "Escape" && !siteMenu.hidden) {
+                setSiteMenuOpen(false);
+                siteMenuToggle.focus();
+            }
+        });
+    </script>
+</body>
 </html>
